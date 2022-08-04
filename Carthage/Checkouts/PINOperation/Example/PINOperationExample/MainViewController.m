@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #if BAZEL
-#import "PINOperation/PINOperation.h"
+#import "PINOperation/Source/PINOperation.h"
 #else
 #import <PINOperation/PINOperation.h>
 #endif

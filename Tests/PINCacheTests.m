@@ -14,7 +14,7 @@
 #endif
 
 #if BAZEL
-#import "PINOperation/PINOperation.h"
+#import "PINOperation/Source/PINOperation.h"
 #else
 #if !__has_include (<PINOperation/PINOperation.h>)
 #import "PINOperation.h"
