@@ -7,7 +7,11 @@
 //
 
 #import "MainViewController.h"
+#if BAZEL
+#import "PINOperation/PINOperation.h"
+#else
 #import <PINOperation/PINOperation.h>
+#endif
 //#import <pthread.h>
 
 @interface MainViewController ()
